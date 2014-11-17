@@ -1,0 +1,3 @@
+[submodule "third-party/mapnik"]
+	path = third-party/mapnik
+	url = git@github.com:mapnik/mapnik.git
