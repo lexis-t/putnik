@@ -3,7 +3,7 @@ putnik
 Mobile GIS Application with Vector Maps and Routing Directions
 
 # Development branches
-## Android
+* Android
 
 # Development Roadmap
 
@@ -19,3 +19,23 @@ Mobile GIS Application with Vector Maps and Routing Directions
 * Implement route calculation
 * Show route at map
 * Rework UI for routing feature
+
+# Current status
+
+Setting up build on OS X
+
+* clone github repo recursively with submodules:
+```bash
+$ git clone --recursive git@github.com:lexis-t/putnik.git
+```
+
+* create build folder and cd inside:
+```bash
+$ mkdir putnik/build
+$ cd putnik/build
+```
+
+* run make
+```bash
+$ make -f ../Makefile libs
+```
